@@ -1,0 +1,169 @@
+#banner{
+     height: 98vh; 
+     background: linear-gradient(to right, hsla(213, 69%, 82%, 0.856), rgba(15, 247, 35, 0.315)), url('mm.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
+
+}
+
+.btn{
+     padding: 15px 30px;
+     font-weight: 900;
+     letter-spacing: 0.5px;
+     border-radius: 60px;
+     transition: all 0.5s ease;
+
+}
+
+.btn-brand {
+     background-color: rgb(5, 5, 5);
+     color: #dee4e0;
+     border: 2px solid #FFF;
+}
+
+.btn-brand:hover{
+      border: 2px solid #FFF;
+
+}
+
+section {
+     padding: 100px 0;
+}
+
+#about h3 {
+font-size: 55px;
+width:40px;
+
+
+}
+
+#services {
+background-color: black;
+
+}
+
+
+.card-img-top{
+     width: 280px;
+}
+
+.card {
+     transition: all 0.4s ease ;
+}
+
+.card :hover{
+     background-color: bisque;
+}
+
+.card:hover .card-text, .card-title{
+     color:blanchedalmond;
+}
+
+#services .btn-brand:hover{
+     background-color: aliceblue !important;
+color:rgba(181, 184, 181, 0.315);
+}
+
+.testimonials img{
+     width: 75px;
+     border-radius: 30px;
+
+}
+.testimonials {
+ border: 2px solid rgba(15, 247, 35, 0.315);
+ padding: 30px;
+ margin-top: 20px;
+ border-radius: 30px;
+
+.testimonials a {
+     color: antiquewhite;
+
+ }
+
+}
+.navar {
+     box-shadow: 0 0 5px rgb(190, 190, 195);
+     
+}
+
+#fac{
+     background-color: bisque;
+}
+
+.faq-selection{
+     max-width: 800px;
+     margin: auto;
+}
+.accordion-item{
+     margin-botton: 20px;
+     border-radius: 0 !important;
+}
+.accordion-button {
+     background-color: antiquewhite;
+     border: none;
+     border-bottom: 1px solid #dee4e0;
+     border-radius: 0 !important; 
+     padding: 15px;
+     font-size: 18px;
+     font-weight: 500;
+     color: #333; 
+     cursor: pointer;
+     transition: background-color 0.3s, color 0.3s; 
+ 
+.accordion-body {
+     border-left: 3px solid rgb(57, 149, 57);
+     padding: 10px 15px;
+     margin-left: 0;
+     background-color: antiquewhite;
+}
+
+.accodiodion-button:not(.collaped) {
+     background-color: antiquewhite;
+     color:antiquewhite
+}
+.accordion-button:hover {
+     background-color: aquamarine;
+     color: blue;
+}
+#cta {
+     height: 98vh; 
+     background: linear-gradient(to right, hsla(213, 69%, 82%, 0.856), rgba(150, 158, 151, 0.315)), url('1563356.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+    
+footer{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background-color: bisque;
+
+}
+footer ul.listunstled li a{
+     color: bisque;
+     text-decoration: none;
+}
+
+.btn-outline-ligh{
+     border-color: antiquewhite;
+     color: blanchedalmond;
+     border-radius: 0;
+}
+@media screen and (max-width:767px) {
+     #about img{
+          height: 300px;
+          width: 300px;
+     }
+     
+}
+
+#services .card{
+     margin-top: 20px;
+
+}
+
+section{
+     padding: 60px 20px;
+}
